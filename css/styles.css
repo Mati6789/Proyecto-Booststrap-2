@@ -10,9 +10,8 @@ body{
   background-color: rgba(0, 0, 0, .3);
 }
 .banner{
-  background-image: url(../assets/bannerCursos.webp);
   height: 122px;
-  background-position: 30% 40%;
+  width: 100%;
 }
 /* Color a nav */
 .nav-link{
@@ -113,6 +112,11 @@ footer a{
 
 /* Section cursos kids */
 
+.banner-cursos{
+  background-image: url(../assets/bannerCursos.webp);
+  background-position: 30% 40%;
+}
+
 .kidsTitle h1{
   font-family: 'Inter', sans-serif;
   font-size: 30px;
@@ -137,7 +141,40 @@ footer a{
  /* cursos kids finalizado */
 
 
+/* SECCION NOTICIAS */
 
+/* Section Yfu */
+
+.banner-noticias{
+  background-image: url(../assets/bannerNoticias.jpg);
+  background-position: 30% 60%;
+}
+
+.yfuImg img{
+  width: 25em;
+  height: 15em;
+}
+
+.yfuTitle h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+
+.yfuSubtitle h2{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+
+.yfuP p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 15px;
+}
 
 
 
@@ -162,6 +199,11 @@ footer a{
 
 
   .kidsImg img{
+    width: 17em;
+    height: 10em;
+  }
+
+  .yfuImg img{
     width: 17em;
     height: 10em;
   }

@@ -201,8 +201,37 @@ footer a{
   width: 20em;
   height: 15em;
 }
+/* Finaliza seccion SOBRE NOSOTROS */
 
+/* Seccion CONTACTO */
 
+.banner-contacto{
+  background-image: url(../assets/bannerContacto.webp);
+  background-position: 30% 40%;
+}
+
+.contenedor-form{
+  background-color: #333;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.contenedor-form h1{
+  font-family: 'inter', sans-serif;
+  color: #fff;
+}
+
+.contenedor-form h2{
+  font-family: 'inter', sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.text-container textarea{
+  width: 100%;
+}
 
 
 

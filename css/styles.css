@@ -176,8 +176,31 @@ footer a{
   padding-bottom: 15px;
 }
 
+/* FINALIZA SECCION NOTICIAS */
 
+/* SECCION SOBRE NOSOTROS */
 
+.banner-nosotros{
+  background-image: url(../assets/bannerNosotros.jpg);
+  background-position:-40% 35%;
+}
+
+.nosotrosTitle h1{
+  font-family: 'Vidaloka', serif;
+  font-size: 78px;
+  font-weight: 100;
+}
+
+.nosotrosInfo{
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 20px;
+}
+
+.nosotrosImg img{
+  width: 20em;
+  height: 15em;
+}
 
 
 
@@ -203,9 +226,16 @@ footer a{
     height: 10em;
   }
 
+  /* Seccion Noticias */
   .yfuImg img{
     width: 17em;
     height: 10em;
+  }
+}
+
+@media (max-width: 500px){
+  .nosotrosTitle h1{
+    font-size: 40px;
   }
 }
 

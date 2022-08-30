@@ -206,7 +206,7 @@ footer a{
 /* Seccion CONTACTO */
 
 .banner-contacto{
-  background-image: url(../assets/bannerContacto.webp);
+  background-image: url(../assets/bannerCursos.webp);
   background-position: 30% 40%;
 }
 
@@ -234,6 +234,17 @@ footer a{
 }
 
 
+@media (max-width: 300px) {
+ .carouselDesk{
+  display: none;
+ }
+}
+
+@media (min-width: 300px){
+  .carouselMob{
+    display: none;
+  }
+}
 
 @media (max-width: 400px) { 
 
